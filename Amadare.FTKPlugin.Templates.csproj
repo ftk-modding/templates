@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+      <PackageType>Template</PackageType>
+      <PackageVersion>1.0</PackageVersion>
+      <PackageId>Amadare.FTKPlugin.Templates</PackageId>
+      <Title>FTK Plugin templates</Title>
+      <Authors>Amadare</Authors>
+      <Description>Templates for FTK Plugins</Description>
+      <PackageTags>dotnet-new;templates;contoso</PackageTags>
+      <TargetFramework>net35</TargetFramework>  
+
+      <IncludeContentInPack>true</IncludeContentInPack>
+      <IncludeBuildOutput>false</IncludeBuildOutput>
+      <ContentTargetFolders>content</ContentTargetFolders>
+      <NoDefaultExcludes>true</NoDefaultExcludes>
+    </PropertyGroup>
+  
+    <ItemGroup>
+      <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
+      <Compile Remove="**\*" />
+    </ItemGroup>
+  
+  </Project>
