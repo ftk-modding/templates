@@ -10,7 +10,7 @@
 
 Each release will contain .nupkg file that can be installed locally using following command:
 
-`dotnet new --install E:\Dev\bepinex\plugin-development\PluginTemplate\bin\Debug\Amadare.FTKPlugin.Templates.1.0.0.nupkg`
+`dotnet new --install E:\path\to\Amadare.FTKPlugin.Templates.1.0.0.nupkg`
 
 after that, you can create projects from template like so:
 
